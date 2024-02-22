@@ -1,0 +1,147 @@
+
+    /* Cover Img & Cover Heading */
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        }
+
+.home {
+    background-image: url("../images/scenery.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    opacity: 1;
+    z-index: -1;
+    align-items: center;
+    margin: 0;
+}
+
+.cover-heading {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    background-color: #a56e276b;
+    color: white;
+    font-family: Tempus Sans ITC;
+    border: 10px outset rgb(11, 196, 11);
+    border-radius: 10px;
+    padding: 20px 65px;
+}
+
+    /* Cover Links Styling */
+
+.links p {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #a56e276b;
+    color: white;
+    font-family: Tempus Sans ITC;
+    border: 5px inset #12e458;
+    border-radius: 10px;
+}
+
+.links {
+    margin: 0 850px;
+    
+}
+
+.flex-container .links {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    height: 600px;
+}
+
+.links a {
+    color: #12e458;
+    text-decoration: none;
+}
+
+.links a:hover {
+  color: #fff;
+}
+
+
+/* Footer */
+footer {
+    background-color: #03782a;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+}
+
+.flex-container-foot {
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    row-gap: 10px;
+    text-decoration: underline;
+}
+
+    /* Template Styling */
+.detes {
+    background-color: #8d7b53;
+}
+
+    /* Navbar */
+
+nav, ul {
+    background-color: #03782a;
+    margin-top: 0;
+    display: flex;
+    
+
+}
+
+.page-head {
+    border: 10px inset #12e458;
+    background-color: #a56e276b;
+    font-family: Tempus Sans ITC;
+    color: #fff;
+    font-size: 40px;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+    column-gap: 160px;
+    padding: 25px;
+    font-size: 25px;
+    color: #fff;
+    font-family: Tempus Sans ITC;
+    
+}
+
+nav li:hover {
+    border-bottom: 2px #fff solid;
+}
+
+    /* Page Content */
+
+.head {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: bodoni MT Regular;
+}
+
+.container {
+    padding: 25px;
+    margin-top: 20px;
+    margin-right: 50%;
+}
+
+.container2 {
+    margin-left: 50%;
+}
+
+.content {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-family: bodoni MT Regular;
+    font-size: 20px
+}
